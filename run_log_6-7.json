@@ -1,0 +1,270 @@
+{
+    "1": [
+        {
+            "query": "WE最近是不是一直在输？",
+            "cache_hint": 1,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "WE最近是不是一直在输？",
+                "teams": [
+                    "WE"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-03-15 14:57:40",
+                    "2026-05-15 14:57:40"
+                ],
+                "search_nums": null,
+                "coreference": null,
+                "resolved_query": "查询 WE 最近的比赛结果，是否一直在输",
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "WE"
+                        ]
+                    }
+                ]
+            },
+            "match_search": [
+                {
+                    "team": "WE",
+                    "opponent": "",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-03-15 14:57:40",
+                        "2026-05-15 14:57:40"
+                    ],
+                    "status": "已结束"
+                }
+            ],
+            "tool_use": [
+                "search_matches"
+            ],
+            "response": "根据查询到的数据，WE最近确实状态不佳。在LPL第二赛段中，WE近期的比赛结果如下：\n\n- **5月7日**：WE 1-2 负于 WBG\n- **5月9日**：WE 0-2 负于 TES\n- **5月13日**：WE 1-2 负于 AL\n\n最近三场比赛全部告负，目前战绩为 **0胜6负，胜率0%**，确实是一直在输。",
+            "ner_time": 1.819242238998413,
+            "agent_time": 2.795891523361206,
+            "tol_time": 4.619849920272827,
+            "dialogue_id": "1"
+        },
+        {
+            "query": "最近5场具体输给谁了？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "最近5场具体输给谁了？",
+                "teams": [
+                    "WE"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-03-15 14:57:44",
+                    "2026-05-15 14:57:44"
+                ],
+                "search_nums": 5,
+                "coreference": {
+                    "mention": "最近5场",
+                    "resolved_to": [
+                        "WE"
+                    ],
+                    "reason": "当前问题省略了查询对象，继承上一轮活跃战队 WE，并指定最近5场"
+                },
+                "resolved_query": "查询 WE 最近5场比赛的对手和结果",
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "WE"
+                        ]
+                    }
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "根据刚才查询到的数据，WE最近5场比赛的具体对阵和比分如下：\n\n1. **5月7日**：WE **1-2** 负于 **WBG**\n2. **5月9日**：WE **0-2** 负于 **TES**\n3. **5月13日**：WE **1-2** 负于 **AL**\n\n不过目前只查到了最近3场比赛的记录，没有更多比赛数据了。如果需要更完整的最近5场记录，我可以再查一下更早的比赛。",
+            "ner_time": 1.8500380516052246,
+            "agent_time": 2.024930953979492,
+            "tol_time": 3.8795902729034424,
+            "dialogue_id": "1"
+        },
+        {
+            "query": "这里面有没有输给WBG？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "这里面有没有输给WBG？",
+                "teams": [
+                    "WE"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-04-15 14:57:48",
+                    "2026-05-15 14:57:48"
+                ],
+                "search_nums": 5,
+                "coreference": {
+                    "mention": "这里面",
+                    "resolved_to": [
+                        "WE"
+                    ],
+                    "reason": "当前问题中的'这里面'指代上一轮查询的WE最近5场比赛，继承查询对象WE"
+                },
+                "resolved_query": "查询WE最近5场比赛是否包含输给WBG的比赛",
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "WE"
+                        ]
+                    }
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "有的。根据查询到的比赛记录，**5月7日** WE以 **1-2** 的比分输给了 **WBG**。",
+            "ner_time": 1.6285340785980225,
+            "agent_time": 1.211273193359375,
+            "tol_time": 2.8413279056549072,
+            "dialogue_id": "1"
+        },
+        {
+            "query": "那跟WBG总交手呢，不限最近",
+            "cache_hint": 1,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "那跟WBG总交手呢，不限最近",
+                "teams": [
+                    "WE",
+                    "WBG"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2025-04-15 14:57:51",
+                    "2026-05-15 14:57:51"
+                ],
+                "search_nums": null,
+                "coreference": {
+                    "mention": "那跟WBG总交手呢，不限最近",
+                    "resolved_to": [
+                        "WE"
+                    ],
+                    "reason": "当前问题省略了查询对象，继承上一轮活跃战队 WE，并指定与 WBG 的总交手记录，不限最近"
+                },
+                "resolved_query": "查询 WE 和 WBG 的总交手记录，不限最近",
+                "query_units": [
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "WE",
+                            "WBG"
+                        ]
+                    }
+                ]
+            },
+            "match_search": [
+                {
+                    "team": "WE",
+                    "opponent": "WBG",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2025-04-15 14:57:51",
+                        "2026-05-15 14:57:51"
+                    ],
+                    "status": "已结束"
+                }
+            ],
+            "tool_use": [
+                "search_matches"
+            ],
+            "response": "根据查询到的数据，WE与WBG的历史交手记录如下（不限时间）：\n\n| 日期 | 比分 | 赛事 |\n|------|------|------|\n| 2025-05-22 | WE **2-0** WBG ✅ | LPL第二赛段 |\n| 2025-07-23 | WE **1-2** WBG ❌ | LPL第三赛段 |\n| 2025-08-12 | WE **1-2** WBG ❌ | LPL第三赛段 |\n| 2026-04-22 | WE **0-2** WBG ❌ | LPL第二赛段 |\n| 2026-05-07 | WE **1-2** WBG ❌ | LPL第二赛段 |\n\n**总交手5次，WE仅赢1场，输了4场，胜率20%**。最近4次交手WE全部告负，上一次赢WBG还是在2025年5月。",
+            "ner_time": 2.209467887878418,
+            "agent_time": 4.025538444519043,
+            "tol_time": 6.237676620483398,
+            "dialogue_id": "1"
+        },
+        {
+            "query": "下一次他们什么时候再打？",
+            "cache_hint": 1,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "下一次他们什么时候再打？",
+                "teams": [
+                    "WE",
+                    "WBG"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-05-15 14:57:57",
+                    "2026-06-15 14:57:57"
+                ],
+                "search_nums": null,
+                "coreference": {
+                    "mention": "他们",
+                    "resolved_to": [
+                        "WE",
+                        "WBG"
+                    ],
+                    "reason": "上一轮查询的是 WE 和 WBG 的总交手记录，当前问题中的'他们'指代这两个队"
+                },
+                "resolved_query": "查询 WE 和 WBG 下一次比赛的时间",
+                "query_units": [
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "WE",
+                            "WBG"
+                        ]
+                    }
+                ]
+            },
+            "match_search": [
+                {
+                    "team": "WE",
+                    "opponent": "WBG",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-05-15 14:57:57",
+                        "2026-06-15 14:57:57"
+                    ],
+                    "status": "未开始"
+                }
+            ],
+            "tool_use": [
+                "search_matches"
+            ],
+            "response": "很抱歉，目前数据库中暂时没有查到WE与WBG未来的赛程安排，所以无法确定他们下一次交手的时间。",
+            "ner_time": 2.8425965309143066,
+            "agent_time": 2.710515022277832,
+            "tol_time": 5.556219577789307,
+            "dialogue_id": "1"
+        }
+    ],
+    "2": [
+        {
+            "query": "全球先锋赛里LPL队伍整体表现怎么样？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": "",
+            "match_search": "",
+            "tool_use": [],
+            "response": "",
+            "ner_time": 0,
+            "agent_time": 0,
+            "tol_time": 0,
+            "dialogue_id": "2"
+        }
+    ]
+}

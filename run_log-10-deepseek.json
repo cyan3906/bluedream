@@ -1,0 +1,583 @@
+{
+    "1": [
+        {
+            "query": "TES、BLG、JDG、WBG这四个队最近状态排个序",
+            "cache_hint": 0,
+            "cache_nohinit": 4,
+            "match_slot": {
+                "query": "TES、BLG、JDG、WBG这四个队最近状态排个序",
+                "teams": [
+                    "TES",
+                    "BLG",
+                    "JDG",
+                    "WBG"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-03-15 20:43:36",
+                    "2026-05-15 20:43:36"
+                ],
+                "search_nums": null,
+                "coreference": null,
+                "resolved_query": "分别查询 TES、BLG、JDG、WBG 的近期状态，并按状态好坏排序",
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "TES"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "BLG"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "JDG"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "WBG"
+                        ]
+                    }
+                ]
+            },
+            "match_search": [
+                {
+                    "team": "TES",
+                    "opponent": "",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-03-15 20:43:36",
+                        "2026-05-15 20:43:36"
+                    ],
+                    "status": "已结束"
+                },
+                {
+                    "team": "BLG",
+                    "opponent": "",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-03-15 20:43:36",
+                        "2026-05-15 20:43:36"
+                    ],
+                    "status": "已结束"
+                },
+                {
+                    "team": "JDG",
+                    "opponent": "",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-03-15 20:43:36",
+                        "2026-05-15 20:43:36"
+                    ],
+                    "status": "已结束"
+                },
+                {
+                    "team": "WBG",
+                    "opponent": "",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-03-15 20:43:36",
+                        "2026-05-15 20:43:36"
+                    ],
+                    "status": "已结束"
+                }
+            ],
+            "tool_use": [
+                "search_matches"
+            ],
+            "response": "根据LPL第二赛段近期的比赛数据，我来为这四支战队的状态排序：\n\n**1️⃣ BLG** — 状态最佳\n- 近期战绩：4胜2负，胜率 **67%**\n- 连续击败了JDG、NIP、IG等强队，势头正盛\n\n**2️⃣ JDG** — 状态中上\n- 近期战绩：3胜3负，胜率 **50%**\n- 赢了TES和AL，但输给了BLG，整体表现中规中矩\n\n**3️⃣ TES** — 状态偏低\n- 近期战绩：2胜4负，胜率 **33%**\n- 赢了WBG和WE，但输给了JDG、NIP和AL，状态起伏较大\n\n**4️⃣ WBG** — 状态垫底\n- 近期战绩：2胜4负，胜率 **33%**\n- 虽然刚赢了JDG，但整体胜率与TES持平，小分表现稍逊\n\n**综合排序：BLG > JDG > TES ≈ WBG**",
+            "ner_time": 2.147864818572998,
+            "agent_time": 3.8716280460357666,
+            "tol_time": 6.024517059326172,
+            "token_use": {
+                "before_model_input_tokens": [
+                    658
+                ],
+                "before_model_output_tokens": [
+                    42
+                ],
+                "before_model_total_tokens": [
+                    700
+                ],
+                "after_model_input_tokens": [
+                    658,
+                    1370
+                ],
+                "after_model_output_tokens": [
+                    42,
+                    229
+                ],
+                "after_model_total_tokens": [
+                    700,
+                    1599
+                ]
+            },
+            "dialogue_id": "1"
+        },
+        {
+            "query": "只看最近5场，别看太早的",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "只看最近5场，别看太早的",
+                "teams": [
+                    "TES",
+                    "BLG",
+                    "JDG",
+                    "WBG"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-03-15 20:43:42",
+                    "2026-05-15 20:43:42"
+                ],
+                "search_nums": 5,
+                "coreference": {
+                    "mention": "只看最近5场，别看太早的",
+                    "resolved_to": [
+                        "TES",
+                        "BLG",
+                        "JDG",
+                        "WBG"
+                    ],
+                    "reason": "当前问题是对上一轮查询条件的修正，要求将查询范围限制为最近5场，查询对象继承上一轮的四个战队"
+                },
+                "resolved_query": "分别查询 TES、BLG、JDG、WBG 最近5场比赛的状态，并按状态好坏排序",
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "TES"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "BLG"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "JDG"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "WBG"
+                        ]
+                    }
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "好的，我重新按各队最近5场比赛来梳理一下状态。\n\n从已有数据中提取各队最近5场（按时间倒序）：\n\n**BLG** 最近5场：\n1. 05-15 vs TES（未进行）\n2. 05-12 vs IG ✅ 2-1\n3. 05-08 vs JDG ✅ 2-0\n4. 05-03 vs NIP ✅ 2-1\n5. 04-29 vs WE ✅ 2-0\n→ **4胜0负（不含未进行的比赛），胜率100%**\n\n**JDG** 最近5场：\n1. 05-14 vs WBG ❌ 0-1\n2. 05-10 vs AL ✅ 2-1\n3. 05-08 vs BLG ❌ 0-2\n4. 05-06 vs TES ✅ 2-1\n5. 05-02 vs WE ✅ 2-1\n→ **3胜2负，胜率60%**\n\n**TES** 最近5场：\n1. 05-15 vs BLG（未进行）\n2. 05-12 vs NIP ❌ 1-2\n3. 05-09 vs WE ✅ 2-0\n4. 05-06 vs JDG ❌ 1-2\n5. 05-02 vs WBG ✅ 2-0\n→ **2胜2负（不含未进行的比赛），胜率50%**\n\n**WBG** 最近5场：\n1. 05-14 vs JDG ✅ 1-0\n2. 05-10 vs NIP ✅ 2-0\n3. 05-07 vs WE ✅ 2-1\n4. 05-02 vs TES ❌ 0-2\n5. 05-01 vs IG ❌ 1-2\n→ **3胜2负，胜率60%**\n\n---\n\n只看最近5场（已完赛），状态排序如下：\n\n**🥇 BLG** — 4胜0负，100%胜率，状态火热\n**🥈 JDG** — 3胜2负，60%胜率\n**🥉 WBG** — 3胜2负，60%胜率（小分略逊于JDG）\n**④ TES** — 2胜2负，50%胜率\n\n**最终排序：BLG > JDG > WBG > TES**",
+            "ner_time": 2.5239908695220947,
+            "agent_time": 4.3530614376068115,
+            "tol_time": 6.882100343704224,
+            "token_use": {
+                "before_model_input_tokens": [
+                    1370
+                ],
+                "before_model_output_tokens": [
+                    229
+                ],
+                "before_model_total_tokens": [
+                    1599
+                ],
+                "after_model_input_tokens": [
+                    1675
+                ],
+                "after_model_output_tokens": [
+                    526
+                ],
+                "after_model_total_tokens": [
+                    2201
+                ]
+            },
+            "dialogue_id": "1"
+        },
+        {
+            "query": "他们之间互相打的结果也算一下",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "他们之间互相打的结果也算一下",
+                "teams": [
+                    "TES",
+                    "BLG",
+                    "JDG",
+                    "WBG"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-04-15 20:43:49",
+                    "2026-05-15 20:43:49"
+                ],
+                "search_nums": null,
+                "coreference": {
+                    "mention": "他们",
+                    "resolved_to": [
+                        "TES",
+                        "BLG",
+                        "JDG",
+                        "WBG"
+                    ],
+                    "reason": "上一轮活跃战队是 TES、BLG、JDG、WBG，当前问题要求计算它们之间互相交手的结果"
+                },
+                "resolved_query": "查询 TES、BLG、JDG、WBG 之间两两交手的结果",
+                "query_units": [
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "TES",
+                            "BLG"
+                        ]
+                    },
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "TES",
+                            "JDG"
+                        ]
+                    },
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "TES",
+                            "WBG"
+                        ]
+                    },
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "BLG",
+                            "JDG"
+                        ]
+                    },
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "BLG",
+                            "WBG"
+                        ]
+                    },
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "JDG",
+                            "WBG"
+                        ]
+                    }
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "好的，我来从已有数据中提取这四支战队之间的交手记录。\n\n---\n\n**TES vs 其他三队：**\n- TES 2-0 WBG（05-02）✅\n- TES 1-2 JDG（05-06）❌\n- TES vs BLG（05-15，未进行）\n\n**BLG vs 其他三队：**\n- BLG 2-0 JDG（05-08）✅\n- BLG vs TES（05-15，未进行）\n\n**JDG vs 其他三队：**\n- JDG 2-1 TES（05-06）✅\n- JDG 0-2 BLG（05-08）❌\n- JDG 0-1 WBG（05-14）❌\n\n**WBG vs 其他三队：**\n- WBG 0-2 TES（05-02）❌\n- WBG 1-0 JDG（05-14）✅\n\n---\n\n**交手战绩汇总（仅统计已完赛）：**\n\n| 对阵 | 比分 | 胜者 |\n|------|:----:|:----:|\n| TES vs WBG | 2-0 | **TES** |\n| TES vs JDG | 1-2 | **JDG** |\n| BLG vs JDG | 2-0 | **BLG** |\n| JDG vs WBG | 0-1 | **WBG** |\n\n**各队交手小计：**\n- **BLG**：1胜0负（赢了JDG）\n- **WBG**：1胜1负（赢了JDG，输给TES）\n- **JDG**：1胜2负（赢了TES，输给BLG和WBG）\n- **TES**：1胜1负（赢了WBG，输给JDG）\n\n---\n\n**综合最近5场状态 + 相互交手记录，最终排序：**\n\n**🥇 BLG** — 近5场全胜，交手1-0，统治力最强\n**🥈 WBG** — 近5场3胜2负，交手赢了JDG，状态回升明显\n**🥉 JDG** — 近5场3胜2负，但交手输给了BLG和WBG，硬仗偏软\n**④ TES** — 近5场2胜2负，交手赢了WBG但输给JDG，状态不够稳定",
+            "ner_time": 2.627169370651245,
+            "agent_time": 4.960001230239868,
+            "tol_time": 7.589366912841797,
+            "token_use": {
+                "before_model_input_tokens": [
+                    1675
+                ],
+                "before_model_output_tokens": [
+                    526
+                ],
+                "before_model_total_tokens": [
+                    2201
+                ],
+                "after_model_input_tokens": [
+                    2275
+                ],
+                "after_model_output_tokens": [
+                    515
+                ],
+                "after_model_total_tokens": [
+                    2790
+                ]
+            },
+            "dialogue_id": "1"
+        },
+        {
+            "query": "谁对BLG胜率最高？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "谁对BLG胜率最高？",
+                "teams": [
+                    "TES",
+                    "JDG",
+                    "WBG",
+                    "BLG"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-03-15 20:43:56",
+                    "2026-05-15 20:43:56"
+                ],
+                "search_nums": null,
+                "coreference": {
+                    "mention": "谁",
+                    "resolved_to": [
+                        "TES",
+                        "JDG",
+                        "WBG"
+                    ],
+                    "reason": "当前问题中的'谁'指代上一轮活跃的战队集合中除BLG外的其他三队：TES、JDG、WBG，询问它们分别对BLG的胜率"
+                },
+                "resolved_query": "查询 TES、JDG、WBG 分别与 BLG 的交手记录，并比较谁对 BLG 的胜率最高",
+                "query_units": [
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "TES",
+                            "BLG"
+                        ]
+                    },
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "JDG",
+                            "BLG"
+                        ]
+                    },
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "WBG",
+                            "BLG"
+                        ]
+                    }
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "从已有数据来看，这四支战队中，目前只有**JDG**和**TES**与BLG有过交手记录（或即将交手）：\n\n- **JDG vs BLG**（05-08）：BLG 2-0 JDG ✅ → JDG对BLG胜率 **0%**\n- **TES vs BLG**（05-15）：尚未进行，暂无结果\n\n而**WBG**在现有数据中没有与BLG的交手记录。\n\n所以在这四支战队中，目前**没有一支战队对BLG取得过胜利**，BLG对JDG保持100%胜率。如果非要选一个，只能等TES vs BLG（05-15）打完才能知道结果了。",
+            "ner_time": 2.6053433418273926,
+            "agent_time": 2.3464651107788086,
+            "tol_time": 4.95763373374939,
+            "token_use": {
+                "before_model_input_tokens": [
+                    2275
+                ],
+                "before_model_output_tokens": [
+                    515
+                ],
+                "before_model_total_tokens": [
+                    2790
+                ],
+                "after_model_input_tokens": [
+                    2864
+                ],
+                "after_model_output_tokens": [
+                    153
+                ],
+                "after_model_total_tokens": [
+                    3017
+                ]
+            },
+            "dialogue_id": "1"
+        },
+        {
+            "query": "这几个队后面一周有没有比赛撞上？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "这几个队后面一周有没有比赛撞上？",
+                "teams": [
+                    "TES",
+                    "BLG",
+                    "JDG",
+                    "WBG"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-05-15 20:44:01",
+                    "2026-05-22 20:44:01"
+                ],
+                "search_nums": null,
+                "coreference": {
+                    "mention": "这几个队",
+                    "resolved_to": [
+                        "TES",
+                        "BLG",
+                        "JDG",
+                        "WBG"
+                    ],
+                    "reason": "历史对话中最近活跃的战队集合是 TES、BLG、JDG、WBG，当前问题中的'这几个队'指代它们"
+                },
+                "resolved_query": "查询 TES、BLG、JDG、WBG 后面一周的赛程，并检查是否有比赛时间冲突",
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "TES"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "BLG"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "JDG"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "WBG"
+                        ]
+                    }
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "从已有数据来看，目前已知的赛程中：\n\n**05-15（今天）**：TES vs BLG ⚔️ 直接对话！\n\n除此之外，现有数据中没有显示这四支战队在未来一周内（05-16~05-22）的其他赛程安排。\n\n所以目前能确定的**撞车**就是今天**TES vs BLG**这场对决，其他三队之间暂时没有看到后续一周的直接交手安排。",
+            "ner_time": 2.3101954460144043,
+            "agent_time": 2.2659854888916016,
+            "tol_time": 4.582489013671875,
+            "token_use": {
+                "before_model_input_tokens": [
+                    2864
+                ],
+                "before_model_output_tokens": [
+                    153
+                ],
+                "before_model_total_tokens": [
+                    3017
+                ],
+                "after_model_input_tokens": [
+                    3092
+                ],
+                "after_model_output_tokens": [
+                    92
+                ],
+                "after_model_total_tokens": [
+                    3184
+                ]
+            },
+            "dialogue_id": "1"
+        },
+        {
+            "query": "最后再给我当前排行榜里这四个队的位置",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "最后再给我当前排行榜里这四个队的位置",
+                "teams": [
+                    "TES",
+                    "BLG",
+                    "JDG",
+                    "WBG"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-05-15 20:44:06",
+                    "2026-05-15 20:44:06"
+                ],
+                "search_nums": null,
+                "coreference": {
+                    "mention": "这四个队",
+                    "resolved_to": [
+                        "TES",
+                        "BLG",
+                        "JDG",
+                        "WBG"
+                    ],
+                    "reason": "历史对话中最近活跃的战队集合是 TES、BLG、JDG、WBG，当前问题中的'这四个队'指代它们"
+                },
+                "resolved_query": "查询 TES、BLG、JDG、WBG 在当前排行榜中的排名位置",
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "TES"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "BLG"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "JDG"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "WBG"
+                        ]
+                    }
+                ]
+            },
+            "match_search": "",
+            "tool_use": [
+                "search_Leaderboard"
+            ],
+            "response": "根据LPL第二赛段当前排行榜，这四支战队的位置如下：\n\n| 排名 | 战队 | 战绩 |\n|:---:|:----:|:----:|\n| **🥇 第1名** | **BLG** | **10胜2负** |\n| **🥈 第2名** | **JDG** | **8胜4负** |\n| **🥉 第3名** | **TES** | **8胜5负** |\n| **⑥ 第6名** | **WBG** | **5胜8负** |\n\nBLG稳居榜首，JDG和TES紧随其后分列二三位，WBG则排在第六，与前三位有一定差距。",
+            "ner_time": 2.1207263469696045,
+            "agent_time": 2.605006456375122,
+            "tol_time": 4.732422828674316,
+            "token_use": {
+                "before_model_input_tokens": [
+                    3092,
+                    3260
+                ],
+                "before_model_output_tokens": [
+                    92,
+                    29
+                ],
+                "before_model_total_tokens": [
+                    3184,
+                    3289
+                ],
+                "after_model_input_tokens": [
+                    3260,
+                    3434
+                ],
+                "after_model_output_tokens": [
+                    29,
+                    151
+                ],
+                "after_model_total_tokens": [
+                    3289,
+                    3585
+                ]
+            },
+            "dialogue_id": "1"
+        }
+    ]
+}

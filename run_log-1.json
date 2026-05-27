@@ -1,0 +1,359 @@
+{
+    "1": [
+        {
+            "query": "BLG最近一个月打得咋样？",
+            "cache_hint": 0,
+            "cache_nohinit": 1,
+            "match_slot": {
+                "query": "BLG最近一个月打得咋样？",
+                "teams": [
+                    "BLG"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-04-15 20:36:27",
+                    "2026-05-15 20:36:27"
+                ],
+                "search_nums": null,
+                "coreference": null,
+                "resolved_query": "查询 BLG 最近一个月的比赛表现",
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "BLG"
+                        ]
+                    }
+                ]
+            },
+            "match_search": [
+                {
+                    "team": "BLG",
+                    "opponent": "",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-04-15 20:36:27",
+                        "2026-05-15 20:36:27"
+                    ],
+                    "status": "已结束"
+                }
+            ],
+            "tool_use": [
+                "search_matches"
+            ],
+            "response": "根据查询结果，BLG最近一个月（2026年4月底至5月中旬）在LPL第二赛段的表现如下：\n\n**战绩：4胜2负，胜率约67%**\n\n具体比赛情况：\n- ✅ **5月15日** vs TES — 待进行\n- ✅ **5月12日** vs IG — **2-1 获胜**\n- ✅ **5月8日** vs JDG — **2-0 获胜**\n- ✅ **5月3日** vs NIP — **2-1 获胜**\n- ✅ **4月29日** vs WE — **2-0 获胜**\n\n整体来看，BLG最近状态不错，除了有一场失利外，其余比赛都拿下了胜利，而且多次以2-0干净利落取胜。",
+            "ner_time": 1.7475521564483643,
+            "agent_time": 3.723304510116577,
+            "tol_time": 5.472769737243652,
+            "token_use": {
+                "before_model_input_tokens": [
+                    648
+                ],
+                "before_model_output_tokens": [
+                    39
+                ],
+                "before_model_total_tokens": [
+                    687
+                ],
+                "after_model_input_tokens": [
+                    648,
+                    863
+                ],
+                "after_model_output_tokens": [
+                    39,
+                    167
+                ],
+                "after_model_total_tokens": [
+                    687,
+                    1030
+                ]
+            },
+            "dialogue_id": "1"
+        },
+        {
+            "query": "那跟TES交手的时候谁赢得多？",
+            "cache_hint": 0,
+            "cache_nohinit": 1,
+            "match_slot": {
+                "query": "那跟TES交手的时候谁赢得多？",
+                "teams": [
+                    "BLG",
+                    "TES"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-03-15 20:36:32",
+                    "2026-05-15 20:36:32"
+                ],
+                "search_nums": null,
+                "coreference": {
+                    "mention": "那跟TES交手的时候",
+                    "resolved_to": [
+                        "BLG"
+                    ],
+                    "reason": "当前问题省略了查询对象，继承上一轮活跃战队 BLG，询问 BLG 和 TES 的交手记录"
+                },
+                "resolved_query": "查询 BLG 和 TES 的交手记录，比较谁赢得多",
+                "query_units": [
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "BLG",
+                            "TES"
+                        ]
+                    }
+                ]
+            },
+            "match_search": [
+                {
+                    "team": "BLG",
+                    "opponent": "TES",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-03-15 20:36:32",
+                        "2026-05-15 20:36:32"
+                    ],
+                    "status": "已结束"
+                }
+            ],
+            "tool_use": [
+                "search_matches"
+            ],
+            "response": "根据查询到的交手记录，BLG与TES在LPL第二赛段中有过两次交手：\n\n- **4月16日** — BLG **0-2** 不敌TES\n- **5月15日** — 比赛尚未进行（待定）\n\n目前来看，**TES以1胜0负领先**，BLG还未赢过TES。不过5月15日的比赛还没打，到时候可以看看BLG能否扳回一城。",
+            "ner_time": 1.614370346069336,
+            "agent_time": 3.2565205097198486,
+            "tol_time": 4.873456716537476,
+            "token_use": {
+                "before_model_input_tokens": [
+                    863,
+                    1105
+                ],
+                "before_model_output_tokens": [
+                    167,
+                    38
+                ],
+                "before_model_total_tokens": [
+                    1030,
+                    1143
+                ],
+                "after_model_input_tokens": [
+                    1105,
+                    1227
+                ],
+                "after_model_output_tokens": [
+                    38,
+                    97
+                ],
+                "after_model_total_tokens": [
+                    1143,
+                    1324
+                ]
+            },
+            "dialogue_id": "1"
+        },
+        {
+            "query": "只看本月的呢？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "只看本月的呢？",
+                "teams": [
+                    "BLG",
+                    "TES"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-05-01 00:00:00",
+                    "2026-05-31 23:59:59"
+                ],
+                "search_nums": null,
+                "coreference": {
+                    "mention": "本月的",
+                    "resolved_to": [
+                        "本月"
+                    ],
+                    "reason": "当前问题省略了查询对象，继承上一轮活跃战队 BLG 和 TES，并指定时间范围为本月"
+                },
+                "resolved_query": "查询 BLG 和 TES 在本月的交手记录，比较谁赢得多",
+                "query_units": [
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "BLG",
+                            "TES"
+                        ]
+                    }
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "根据刚才查到的数据，本月（2026年5月）BLG与TES的交手记录只有一场：\n\n- **5月15日** — BLG vs TES，这场比赛**尚未进行**（显示为None-None）\n\n所以本月两队还没有实际交手过，胜负要等5月15日的比赛打完才知道。",
+            "ner_time": 1.806006908416748,
+            "agent_time": 1.659688949584961,
+            "tol_time": 3.467798948287964,
+            "token_use": {
+                "before_model_input_tokens": [
+                    1227
+                ],
+                "before_model_output_tokens": [
+                    97
+                ],
+                "before_model_total_tokens": [
+                    1324
+                ],
+                "after_model_input_tokens": [
+                    1395
+                ],
+                "after_model_output_tokens": [
+                    68
+                ],
+                "after_model_total_tokens": [
+                    1463
+                ]
+            },
+            "dialogue_id": "1"
+        },
+        {
+            "query": "他们接下来还有比赛吗？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "他们接下来还有比赛吗？",
+                "teams": [
+                    "BLG",
+                    "TES"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-05-15 20:36:41",
+                    "2026-06-15 20:36:41"
+                ],
+                "search_nums": null,
+                "coreference": {
+                    "mention": "他们",
+                    "resolved_to": [
+                        "BLG",
+                        "TES"
+                    ],
+                    "reason": "上一轮活跃战队是 BLG 和 TES，当前问题询问它们接下来的赛程"
+                },
+                "resolved_query": "查询 BLG 和 TES 接下来还有没有比赛",
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "BLG"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "TES"
+                        ]
+                    }
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "根据之前查到的数据，BLG接下来还有一场比赛：\n\n- **5月15日 19:00** — BLG vs TES（常规赛）\n\n这场比赛目前显示为待进行状态，是BLG下一场要打的比赛。",
+            "ner_time": 1.7920410633087158,
+            "agent_time": 1.1041996479034424,
+            "tol_time": 2.9025485515594482,
+            "token_use": {
+                "before_model_input_tokens": [
+                    1395
+                ],
+                "before_model_output_tokens": [
+                    68
+                ],
+                "before_model_total_tokens": [
+                    1463
+                ],
+                "after_model_input_tokens": [
+                    1535
+                ],
+                "after_model_output_tokens": [
+                    50
+                ],
+                "after_model_total_tokens": [
+                    1585
+                ]
+            },
+            "dialogue_id": "1"
+        },
+        {
+            "query": "顺便看下BLG现在排行榜第几",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "顺便看下BLG现在排行榜第几",
+                "teams": [
+                    "BLG"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-05-15 20:36:43",
+                    "2026-05-15 20:36:43"
+                ],
+                "search_nums": null,
+                "coreference": null,
+                "resolved_query": "查询 BLG 当前的排名",
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "BLG"
+                        ]
+                    }
+                ]
+            },
+            "match_search": "",
+            "tool_use": [
+                "search_Leaderboard"
+            ],
+            "response": "BLG目前在LPL第二赛段排行榜上**排名第1**，战绩为**10胜2负**，领跑积分榜！",
+            "ner_time": 1.2662079334259033,
+            "agent_time": 1.895209550857544,
+            "tol_time": 3.1673049926757812,
+            "token_use": {
+                "before_model_input_tokens": [
+                    1535,
+                    1661
+                ],
+                "before_model_output_tokens": [
+                    50,
+                    29
+                ],
+                "before_model_total_tokens": [
+                    1585,
+                    1690
+                ],
+                "after_model_input_tokens": [
+                    1661,
+                    1835
+                ],
+                "after_model_output_tokens": [
+                    29,
+                    30
+                ],
+                "after_model_total_tokens": [
+                    1690,
+                    1865
+                ]
+            },
+            "dialogue_id": "1"
+        }
+    ]
+}

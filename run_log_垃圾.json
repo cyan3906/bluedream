@@ -1,0 +1,880 @@
+{
+    "1": [
+        {
+            "query": "BLG最近一个月打得咋样？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": "",
+            "match_search": "",
+            "tool_use": [],
+            "response": "",
+            "ner_time": 0,
+            "agent_time": 0,
+            "tol_time": 0,
+            "dialogue_id": "1"
+        },
+        {
+            "query": "那跟TES交手的时候谁赢得多？",
+            "cache_hint": 0,
+            "cache_nohinit": 1,
+            "match_slot": {
+                "coreference": null,
+                "query": "BLG最近一个月打得咋样？",
+                "resolved_query": "查询 BLG 最近一个月的比赛表现",
+                "teams": [
+                    "BLG"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "BLG"
+                        ]
+                    }
+                ],
+                "search_nums": null,
+                "search_time": [
+                    "2026-04-14 22:43:05",
+                    "2026-05-14 22:43:05"
+                ]
+            },
+            "match_search": [
+                {
+                    "team": "BLG",
+                    "opponent": "",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-04-14 22:43:05",
+                        "2026-05-14 22:43:05"
+                    ],
+                    "status": "已结束"
+                }
+            ],
+            "tool_use": [
+                "search_matches"
+            ],
+            "response": "根据查询结果，BLG最近一个月（2026年4月底至5月中旬）在LPL第二赛段常规赛中表现非常出色，共进行了6场比赛，战绩为 **5胜1负**，胜率高达 **83%**。\n\n具体赛果如下：\n- **5月12日**：BLG 2-1 战胜 IG\n- **5月8日**：BLG 2-0 战胜 JDG\n- **5月3日**：BLG 2-1 战胜 NIP\n- **4月29日**：BLG 2-0 战胜 WE\n- **4月26日**：BLG 2-0 战胜 WBG\n\n整体来看，BLG近期状态火热，除了对阵IG有一场失利外，其余比赛均顺利拿下，且多次零封对手。",
+            "ner_time": 1.8570234775543213,
+            "agent_time": 4.690660238265991,
+            "tol_time": 6.554785490036011,
+            "dialogue_id": "1"
+        },
+        {
+            "query": "只看本月的呢？",
+            "cache_hint": 0,
+            "cache_nohinit": 1,
+            "match_slot": {
+                "coreference": {
+                    "mention": "那跟TES交手的时候谁赢得多",
+                    "resolved_to": [
+                        "BLG"
+                    ],
+                    "reason": "当前问题省略了查询对象，继承上一轮活跃战队 BLG，询问 BLG 和 TES 的交手记录"
+                },
+                "query": "那跟TES交手的时候谁赢得多？",
+                "resolved_query": "查询 BLG 和 TES 的交手记录，比较谁赢得多",
+                "teams": [
+                    "BLG",
+                    "TES"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "query_units": [
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "BLG",
+                            "TES"
+                        ]
+                    }
+                ],
+                "search_nums": null,
+                "search_time": [
+                    "2026-03-14 22:43:11",
+                    "2026-05-14 22:43:11"
+                ]
+            },
+            "match_search": [
+                {
+                    "team": "BLG",
+                    "opponent": "TES",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-03-14 22:43:11",
+                        "2026-05-14 22:43:11"
+                    ],
+                    "status": "已结束"
+                }
+            ],
+            "tool_use": [
+                "search_matches"
+            ],
+            "response": "根据查询到的交手记录，在LPL第二赛段中，BLG与TES仅交手过1次：\n\n- **2026年4月16日**：BLG **0-2** 不敌 TES\n\n目前TES以 **1胜0负** 领先，BLG尚未赢过TES。不过双方交手次数较少，后续如果再相遇，结果可能还会有变化。",
+            "ner_time": 2.1634678840637207,
+            "agent_time": 3.3240277767181396,
+            "tol_time": 5.495289087295532,
+            "dialogue_id": "1"
+        },
+        {
+            "query": "他们接下来还有比赛吗？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "coreference": {
+                    "mention": "本月的",
+                    "resolved_to": [
+                        "本月"
+                    ],
+                    "reason": "当前问题省略了查询对象，继承上一轮活跃战队 BLG 和 TES，并将时间范围切换为'本月'"
+                },
+                "query": "只看本月的呢？",
+                "resolved_query": "查询 BLG 和 TES 在本月的交手记录，比较谁赢得多",
+                "teams": [
+                    "BLG",
+                    "TES"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "query_units": [
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "BLG",
+                            "TES"
+                        ]
+                    }
+                ],
+                "search_nums": null,
+                "search_time": [
+                    "2026-05-01 00:00:00",
+                    "2026-05-31 23:59:59"
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "根据刚才查询到的数据，BLG与TES在本月（2026年5月）并没有交手记录。双方最近一次交手是在4月16日，当时TES以2-0战胜了BLG。\n\n所以本月两队还没有交过手，暂时没有本月的数据可以对比。",
+            "ner_time": 2.1950795650482178,
+            "agent_time": 1.8627510070800781,
+            "tol_time": 4.063249111175537,
+            "dialogue_id": "1"
+        },
+        {
+            "query": "顺便看下BLG现在排行榜第几",
+            "cache_hint": 2,
+            "cache_nohinit": 1,
+            "match_slot": {
+                "coreference": {
+                    "mention": "他们",
+                    "resolved_to": [
+                        "BLG",
+                        "TES"
+                    ],
+                    "reason": "上一轮活跃战队是 BLG 和 TES，当前问题询问它们接下来的赛程"
+                },
+                "query": "他们接下来还有比赛吗？",
+                "resolved_query": "查询 BLG 和 TES 接下来还有没有比赛",
+                "teams": [
+                    "BLG",
+                    "TES"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "BLG"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "TES"
+                        ]
+                    }
+                ],
+                "search_nums": null,
+                "search_time": [
+                    "2026-05-14 22:43:21",
+                    "2026-06-14 22:43:21"
+                ]
+            },
+            "match_search": [
+                {
+                    "team": "BLG",
+                    "opponent": "",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-05-14 22:43:21",
+                        "2026-06-14 22:43:21"
+                    ],
+                    "status": "未开始"
+                },
+                {
+                    "team": "TES",
+                    "opponent": "",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-05-14 22:43:21",
+                        "2026-06-14 22:43:21"
+                    ],
+                    "status": "未开始"
+                }
+            ],
+            "tool_use": [
+                "search_matches",
+                "search_matches"
+            ],
+            "response": "有的！接下来BLG还有两场比赛：\n\n1. **5月15日 19:00** — BLG vs **TES**（两队再次交手！）\n2. **5月17日 19:00** — BLG vs **AL**\n\n所以很快就能看到BLG和TES的再次对决了，可以期待一下这次谁能取胜！",
+            "ner_time": 1.8935420513153076,
+            "agent_time": 4.391871929168701,
+            "tol_time": 6.291086435317993,
+            "dialogue_id": "1"
+        },
+        {
+            "query": "",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "coreference": null,
+                "query": "顺便看下BLG现在排行榜第几",
+                "resolved_query": "查询 BLG 当前的排名",
+                "teams": [
+                    "BLG"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "BLG"
+                        ]
+                    }
+                ],
+                "search_nums": null,
+                "search_time": [
+                    "2026-05-14 22:43:27",
+                    "2026-05-14 22:43:27"
+                ]
+            },
+            "match_search": "",
+            "tool_use": [
+                "search_Leaderboard"
+            ],
+            "response": "BLG目前在LPL第二赛段排行榜上位列 **第1名**，战绩为 **10胜2负**，表现非常强势！",
+            "ner_time": 1.4743645191192627,
+            "agent_time": 2.1916041374206543,
+            "tol_time": 3.674647331237793,
+            "dialogue_id": "1"
+        }
+    ],
+    "2": [
+        {
+            "query": "昨天都打了哪些比赛？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": "",
+            "match_search": "",
+            "tool_use": [],
+            "response": "",
+            "ner_time": 0,
+            "agent_time": 0,
+            "tol_time": 0,
+            "dialogue_id": "2"
+        },
+        {
+            "query": "里面有TES的吗？",
+            "cache_hint": 0,
+            "cache_nohinit": 1,
+            "match_slot": {
+                "coreference": null,
+                "query": "昨天都打了哪些比赛？",
+                "resolved_query": "查询昨天进行的英雄联盟比赛",
+                "teams": [],
+                "tournaments": [
+                    ""
+                ],
+                "query_units": [],
+                "search_nums": null,
+                "search_time": [
+                    "2026-05-13 00:00:00",
+                    "2026-05-13 23:59:59"
+                ]
+            },
+            "match_search": [
+                {
+                    "team": "",
+                    "opponent": "",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-05-13 00:00:00",
+                        "2026-05-13 23:59:59"
+                    ],
+                    "status": "已结束"
+                }
+            ],
+            "tool_use": [
+                "search_matches"
+            ],
+            "response": "根据查询结果，昨天（2026年5月13日）进行的比赛如下：\n\n**LPL第二赛段（常规赛）：**\n- **EDG 2-1 OMG**\n- **AL 2-1 WE**\n\n**LCK联赛（常规赛）：**\n- **DK vs DNS**（比分暂无）\n\n以上就是昨天的主要比赛情况。",
+            "ner_time": 2.635134220123291,
+            "agent_time": 2.5830113887786865,
+            "tol_time": 5.226741552352905,
+            "dialogue_id": "2"
+        },
+        {
+            "query": "这场比分是多少？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "coreference": {
+                    "mention": "里面",
+                    "resolved_to": [
+                        "昨天进行的比赛"
+                    ],
+                    "reason": "当前问题中的'里面'指代上一轮查询结果中的比赛列表，询问这些比赛中是否包含TES的比赛"
+                },
+                "query": "里面有TES的吗？",
+                "resolved_query": "查询昨天进行的比赛中是否有TES的比赛",
+                "teams": [
+                    "TES"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "TES"
+                        ]
+                    }
+                ],
+                "search_nums": null,
+                "search_time": [
+                    "2026-04-14 22:43:36",
+                    "2026-05-14 22:43:36"
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "根据刚才查询到的昨天比赛结果，昨天进行的比赛是 **EDG vs OMG**、**AL vs WE** 以及 **DK vs DNS**，其中并没有TES的比赛。",
+            "ner_time": 2.322180986404419,
+            "agent_time": 1.6588413715362549,
+            "tol_time": 3.989896059036255,
+            "dialogue_id": "2"
+        },
+        {
+            "query": "那它下一场打谁？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "coreference": {
+                    "mention": "这场",
+                    "resolved_to": [
+                        "昨天进行的比赛"
+                    ],
+                    "reason": "当前问题中的'这场'指代上一轮查询结果中的比赛列表，但未明确指定具体哪一场，无法确定具体比赛"
+                },
+                "query": "这场比分是多少？",
+                "resolved_query": "查询昨天进行的比赛的比分",
+                "teams": [],
+                "tournaments": [
+                    ""
+                ],
+                "query_units": [],
+                "search_nums": null,
+                "search_time": [
+                    "2026-04-14 22:43:40",
+                    "2026-05-14 22:43:40"
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "您指的是哪一场比赛呢？昨天有三场比赛，分别是：\n\n1. **EDG vs OMG** — 比分 **2-1**\n2. **AL vs WE** — 比分 **2-1**\n3. **DK vs DNS** — 比分暂无\n\n请告诉我您想了解哪一场的具体比分？",
+            "ner_time": 2.57830810546875,
+            "agent_time": 1.6431355476379395,
+            "tol_time": 4.230663537979126,
+            "dialogue_id": "2"
+        },
+        {
+            "query": "对手最近五场状态怎么样？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "coreference": {
+                    "mention": "它",
+                    "resolved_to": [
+                        "TES"
+                    ],
+                    "reason": "上一轮用户询问昨天比赛中是否有TES的比赛，当前问题中的'它'指代TES"
+                },
+                "query": "那它下一场打谁？",
+                "resolved_query": "查询TES的下一场比赛对手",
+                "teams": [
+                    "TES"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "TES"
+                        ]
+                    }
+                ],
+                "search_nums": null,
+                "search_time": [
+                    "2026-05-14 22:43:44",
+                    "2026-06-14 22:43:44"
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "您说的\"它\"是指哪支战队呢？之前提到了EDG、OMG、AL、WE、DK、DNS，请问您想问哪支战队的下一场比赛？",
+            "ner_time": 2.537550687789917,
+            "agent_time": 2.0888400077819824,
+            "tol_time": 4.635992527008057,
+            "dialogue_id": "2"
+        },
+        {
+            "query": "",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "coreference": {
+                    "mention": "对手",
+                    "resolved_to": [
+                        "TES"
+                    ],
+                    "reason": "上一轮用户询问TES的下一场比赛对手，当前问题中的'对手'指代TES的下一场比赛对手，但未明确具体对手名称，需继承上一轮查询对象TES"
+                },
+                "query": "对手最近五场状态怎么样？",
+                "resolved_query": "查询TES的下一场比赛对手最近五场的状态",
+                "teams": [
+                    "TES"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "TES"
+                        ]
+                    }
+                ],
+                "search_nums": 5,
+                "search_time": [
+                    "2026-03-14 22:43:49",
+                    "2026-05-14 22:43:49"
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "抱歉，我目前还不确定您指的是哪支战队以及它的对手是谁。请您先告诉我具体是哪支战队，以及它的下一场比赛对手是谁，这样我才能帮您查询对手最近五场的状态。",
+            "ner_time": 2.389916181564331,
+            "agent_time": 1.436025619506836,
+            "tol_time": 3.835566997528076,
+            "dialogue_id": "2"
+        }
+    ],
+    "3": [
+        {
+            "query": "JDG、WBG、NIP这几个队最近3场谁状态最好？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": "",
+            "match_search": "",
+            "tool_use": [],
+            "response": "",
+            "ner_time": 0,
+            "agent_time": 0,
+            "tol_time": 0,
+            "dialogue_id": "3"
+        },
+        {
+            "query": "那他们互相之间交手呢？",
+            "cache_hint": 0,
+            "cache_nohinit": 3,
+            "match_slot": {
+                "coreference": null,
+                "query": "JDG、WBG、NIP这几个队最近3场谁状态最好？",
+                "resolved_query": "分别查询 JDG、WBG、NIP 最近 3 场比赛的状态，并比较谁状态最好",
+                "teams": [
+                    "JDG",
+                    "WBG",
+                    "NIP"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "JDG"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "WBG"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "NIP"
+                        ]
+                    }
+                ],
+                "search_nums": 3,
+                "search_time": [
+                    "2026-03-14 22:43:53",
+                    "2026-05-14 22:43:53"
+                ]
+            },
+            "match_search": [
+                {
+                    "team": "JDG",
+                    "opponent": "",
+                    "tournament": "",
+                    "search_nums": 3,
+                    "search_time": [
+                        "2026-03-14 22:43:53",
+                        "2026-05-14 22:43:53"
+                    ],
+                    "status": "已结束"
+                },
+                {
+                    "team": "WBG",
+                    "opponent": "",
+                    "tournament": "",
+                    "search_nums": 3,
+                    "search_time": [
+                        "2026-03-14 22:43:53",
+                        "2026-05-14 22:43:53"
+                    ],
+                    "status": "已结束"
+                },
+                {
+                    "team": "NIP",
+                    "opponent": "",
+                    "tournament": "",
+                    "search_nums": 3,
+                    "search_time": [
+                        "2026-03-14 22:43:53",
+                        "2026-05-14 22:43:53"
+                    ],
+                    "status": "已结束"
+                }
+            ],
+            "tool_use": [
+                "search_matches"
+            ],
+            "response": "根据最近3场比赛的数据，三支战队的状态对比如下：\n\n**JDG**（1胜2负）\n- 胜：2-1 AL\n- 负：0-1 WBG、一场对阵WBG的比赛无比分\n\n**WBG**（1胜2负）\n- 胜：1-0 JDG\n- 负：一场对阵JDG无比分、2-0 NIP（这场是胜场，但统计显示1胜2负，另一场无比分）\n\n**NIP**（1胜2负）\n- 胜：2-1 TES\n- 负：0-2 WBG、0-2 IG\n\n三支战队最近3场都是 **1胜2负，胜率均为33%**，状态半斤八两。不过从比赛内容来看：\n- **NIP** 赢的是强队TES，且输给WBG和IG都是0-2被零封，起伏较大。\n- **JDG** 赢下AL，输给WBG。\n- **WBG** 赢下JDG和NIP，表现相对稳定。\n\n综合来看，**WBG** 在直接交手中赢了JDG和NIP，状态稍好一些。",
+            "ner_time": 2.901664972305298,
+            "agent_time": 5.234078645706177,
+            "tol_time": 8.140583276748657,
+            "dialogue_id": "3"
+        },
+        {
+            "query": "他们互相交手谁实力最差",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "coreference": {
+                    "mention": "他们",
+                    "resolved_to": [
+                        "JDG",
+                        "WBG",
+                        "NIP"
+                    ],
+                    "reason": "上一轮活跃战队是 JDG、WBG、NIP，当前问题询问它们互相之间的交手记录"
+                },
+                "query": "那他们互相之间交手呢？",
+                "resolved_query": "查询 JDG 和 WBG、JDG 和 NIP、WBG 和 NIP 的交手记录",
+                "teams": [
+                    "JDG",
+                    "WBG",
+                    "NIP"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "query_units": [
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "JDG",
+                            "WBG"
+                        ]
+                    },
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "JDG",
+                            "NIP"
+                        ]
+                    },
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "WBG",
+                            "NIP"
+                        ]
+                    }
+                ],
+                "search_nums": null,
+                "search_time": [
+                    "2026-03-14 22:44:01",
+                    "2026-05-14 22:44:01"
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "刚才的数据中已经包含了他们之间的交手记录，我来整理一下这三支战队互相之间的对战情况：\n\n**JDG vs WBG**\n- 2026-05-14：JDG 0-1 WBG（WBG胜）\n- 2026-05-14：JDG None-None WBG（无比分）\n\n**WBG vs NIP**\n- 2026-05-10：WBG 2-0 NIP（WBG胜）\n\n**JDG vs NIP**\n- 最近3场中没有直接交手记录\n\n**总结：**\n- **WBG** 对JDG和NIP都取得了胜利，交手战绩 **2胜0负**，表现最好。\n- **JDG** 对WBG 0胜1负，未与NIP交手。\n- **NIP** 对WBG 0胜1负，未与JDG交手。\n\n所以从互相交手来看，**WBG** 明显占优，先后击败了JDG和NIP。",
+            "ner_time": 2.2695631980895996,
+            "agent_time": 5.000728368759155,
+            "tol_time": 7.280768632888794,
+            "dialogue_id": "3"
+        },
+        {
+            "query": "谁现在排名最高？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "coreference": {
+                    "mention": "他们",
+                    "resolved_to": [
+                        "JDG",
+                        "WBG",
+                        "NIP"
+                    ],
+                    "reason": "上一轮活跃战队是 JDG、WBG、NIP，当前问题询问它们互相之间的交手记录中谁实力最差"
+                },
+                "query": "他们互相交手谁实力最差",
+                "resolved_query": "查询 JDG 和 WBG、JDG 和 NIP、WBG 和 NIP 的交手记录，并比较谁实力最差",
+                "teams": [
+                    "JDG",
+                    "WBG",
+                    "NIP"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "query_units": [
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "JDG",
+                            "WBG"
+                        ]
+                    },
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "JDG",
+                            "NIP"
+                        ]
+                    },
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "WBG",
+                            "NIP"
+                        ]
+                    }
+                ],
+                "search_nums": null,
+                "search_time": [
+                    "2026-04-14 22:44:08",
+                    "2026-05-14 22:44:08"
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "根据已有的交手记录来看：\n\n- **WBG** 赢了JDG和NIP，交手2胜0负\n- **JDG** 输给WBG，0胜1负，未与NIP交手\n- **NIP** 输给WBG，0胜1负，未与JDG交手\n\n从直接交手的战绩来看，**JDG和NIP**都没有赢过WBG，但JDG和NIP之间没有直接交手记录，所以无法直接比较他俩谁更差。\n\n不过从交手比分来看：\n- WBG **2-0** 零封了NIP\n- WBG **1-0** 赢了JDG（另一场无比分）\n\n**NIP** 被WBG零封，且输得比较干脆，在互相交手中表现相对最差。",
+            "ner_time": 2.4399518966674805,
+            "agent_time": 3.0907957553863525,
+            "tol_time": 5.539116144180298,
+            "dialogue_id": "3"
+        },
+        {
+            "query": "接下来一周他们有没有互相撞上的比赛？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "coreference": {
+                    "mention": "谁",
+                    "resolved_to": [
+                        "JDG",
+                        "WBG",
+                        "NIP"
+                    ],
+                    "reason": "当前问题省略了查询对象，继承上一轮活跃战队 JDG、WBG、NIP"
+                },
+                "query": "谁现在排名最高？",
+                "resolved_query": "查询 JDG、WBG、NIP 当前的排名，并比较谁排名最高",
+                "teams": [
+                    "JDG",
+                    "WBG",
+                    "NIP"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "JDG"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "WBG"
+                        ]
+                    },
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "NIP"
+                        ]
+                    }
+                ],
+                "search_nums": null,
+                "search_time": [
+                    "2026-05-14 22:44:14",
+                    "2026-05-14 22:44:14"
+                ]
+            },
+            "match_search": "",
+            "tool_use": [
+                "search_Leaderboard"
+            ],
+            "response": "根据当前排行榜，三支战队的排名如下：\n\n- **JDG**：第2名（8胜4负）👑\n- **NIP**：第5名（6胜7负）\n- **WBG**：第6名（5胜8负）\n\n**JDG** 目前排名最高，位列第2，远高于NIP和WBG。",
+            "ner_time": 2.4042859077453613,
+            "agent_time": 3.2182059288024902,
+            "tol_time": 5.6314544677734375,
+            "dialogue_id": "3"
+        },
+        {
+            "query": "",
+            "cache_hint": 4,
+            "cache_nohinit": 1,
+            "match_slot": {
+                "coreference": {
+                    "mention": "他们",
+                    "resolved_to": [
+                        "JDG",
+                        "WBG",
+                        "NIP"
+                    ],
+                    "reason": "上一轮活跃战队是 JDG、WBG、NIP，当前问题询问它们之间接下来一周是否有直接对战的比赛"
+                },
+                "query": "接下来一周他们有没有互相撞上的比赛？",
+                "resolved_query": "查询 JDG、WBG、NIP 之间接下来一周是否有互相撞上的比赛",
+                "teams": [
+                    "JDG",
+                    "WBG",
+                    "NIP"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "query_units": [
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "JDG",
+                            "WBG"
+                        ]
+                    },
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "JDG",
+                            "NIP"
+                        ]
+                    },
+                    {
+                        "type_model": "pairwise",
+                        "subjects": [
+                            "WBG",
+                            "NIP"
+                        ]
+                    }
+                ],
+                "search_nums": null,
+                "search_time": [
+                    "2026-05-14 22:44:19",
+                    "2026-05-21 22:44:19"
+                ]
+            },
+            "match_search": [
+                {
+                    "team": "JDG",
+                    "opponent": "WBG",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-05-14 22:44:19",
+                        "2026-05-21 22:44:19"
+                    ],
+                    "status": "未开始"
+                },
+                {
+                    "team": "JDG",
+                    "opponent": "NIP",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-05-14 22:44:19",
+                        "2026-05-21 22:44:19"
+                    ],
+                    "status": "未开始"
+                },
+                {
+                    "team": "WBG",
+                    "opponent": "NIP",
+                    "tournament": "",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-05-14 22:44:19",
+                        "2026-05-21 22:44:19"
+                    ],
+                    "status": "未开始"
+                }
+            ],
+            "tool_use": [
+                "search_matches",
+                "search_matches",
+                "search_matches"
+            ],
+            "response": "目前查询到的比赛数据中没有显示接下来一周（即2026年5月15日之后）JDG、WBG、NIP之间互相交手的赛程信息，所以暂时没有查到他们接下来一周有直接对上的比赛。",
+            "ner_time": 2.5650391578674316,
+            "agent_time": 5.923097610473633,
+            "tol_time": 8.500241756439209,
+            "dialogue_id": "3"
+        }
+    ]
+}

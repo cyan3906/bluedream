@@ -1,0 +1,3 @@
+*.faiss
+*.db
+Spider/build_db/*.json

@@ -1,0 +1,431 @@
+{
+    "1": [
+        {
+            "query": "想看看未来有哪些比赛",
+            "cache_hint": 1,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "想看看未来有哪些比赛",
+                "teams": [],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-05-17 21:09:30",
+                    "2026-06-17 21:09:30"
+                ],
+                "search_nums": null,
+                "coreference": null,
+                "resolved_query": "查询未来有哪些比赛",
+                "query_units": []
+            },
+            "match_search": "",
+            "tool_use": [
+                "search_next_match"
+            ],
+            "response": "好的，我来查询未来的赛程安排。{\"LCK联赛\": [{\"match_time\": \"2026-05-17 16:00\", \"team_a\": \"HLE\", \"team_b\": \"KT\"}, {\"match_time\": \"2026-05-17 18:00\", \"team_a\": \"KRX\", \"team_b\": \"BRO\"}, {\"match_time\": \"2026-05-20 16:00\", \"team_a\": \"T1\", \"team_b\": \"KRX\"}, {\"match_time\": \"2026-05-20 18:00\", \"team_a\": \"NS\", \"team_b\": \"KT\"}, {\"match_time\": \"2026-05-21 16:00\", \"team_a\": \"DK\", \"team_b\": \"BRO\"}], \"LPL第二赛段\": [{\"match_time\": \"2026-05-17 17:00\", \"team_a\": \"JDG\", \"team_b\": \"IG\"}, {\"match_time\": \"2026-05-17 19:00\", \"team_a\": \"BLG\", \"team_b\": \"AL\"}], \"LCKCL联赛\": [{\"match_time\": \"2026-05-18 13:00\", \"team_a\": \"DK.C\", \"team_b\": \"T1.EA\"}, {\"match_time\": \"2026-05-18 15:00\", \"team_a\": \"DNS.C\", \"team_b\": \"DRX.C\"}, {\"match_time\": \"2026-05-18 17:00\", \"team_a\": \"GEN.C\", \"team_b\": \"HLE.C\"}, {\"match_time\": \"2026-05-19 16:00\", \"team_a\": \"BFX.Y\", \"team_b\": \"BRO.C\"}, {\"match_time\": \"2026-05-19 18:00\", \"team_a\": \"KT.C\", \"team_b\": \"NS.EA\"}], \"LPLOL春季赛\": [{\"match_time\": \"2026-05-22 02:00\", \"team_a\": \"FCN\", \"team_b\": \"DRM\"}, {\"match_time\": \"2026-05-22 03:00\", \"team_a\": \"Crusaders\", \"team_b\": \"ZeroZone\"}, {\"match_time\": \"2026-05-22 04:00\", \"team_a\": \"BBK\", \"team_b\": \"RT\"}, {\"match_time\": \"2026-05-22 05:00\", \"team_a\": \"GTZ\", \"team_b\": \"The Otter Side\"}, {\"match_time\": \"2026-05-23 02:00\", \"team_a\": \"GTZ\", \"team_b\": \"BBK\"}]}以下是近期各赛区的未来赛程安排：\n\n### 🏆 LCK联赛\n| 时间 | 对阵 |\n|------|------|\n| 5月17日 16:00 | **HLE** vs **KT** |\n| 5月17日 18:00 | **KRX** vs **BRO** |\n| 5月20日 16:00 | **T1** vs **KRX** |\n| 5月20日 18:00 | **NS** vs **KT** |\n| 5月21日 16:00 | **DK** vs **BRO** |\n\n### 🏆 LPL第二赛段\n| 时间 | 对阵 |\n|------|------|\n| 5月17日 17:00 | **JDG** vs **IG** |\n| 5月17日 19:00 | **BLG** vs **AL** |\n\n### 🏆 LCKCL联赛（次级联赛）\n| 时间 | 对阵 |\n|------|------|\n| 5月18日 13:00 | **DK.C** vs **T1.EA** |\n| 5月18日 15:00 | **DNS.C** vs **DRX.C** |\n| 5月18日 17:00 | **GEN.C** vs **HLE.C** |\n| 5月19日 16:00 | **BFX.Y** vs **BRO.C** |\n| 5月19日 18:00 | **KT.C** vs **NS.EA** |\n\n### 🏆 LPLOL春季赛\n| 时间 | 对阵 |\n|------|------|\n| 5月22日 02:00 | **FCN** vs **DRM** |\n| 5月22日 03:00 | **Crusaders** vs **ZeroZone** |\n| 5月22日 04:00 | **BBK** vs **RT** |\n| 5月22日 05:00 | **GTZ** vs **The Otter Side** |\n| 5月23日 02:00 | **GTZ** vs **BBK** |\n\n你对哪场比赛比较感兴趣？我可以进一步帮你查询相关战队的交手记录或排行榜信息！",
+            "ner_time": 1.3842473030090332,
+            "agent_time": 1.2087790966033936,
+            "tol_time": 2.5932888984680176,
+            "token_use": {
+                "before_model_input_tokens": [
+                    694
+                ],
+                "before_model_output_tokens": [
+                    37
+                ],
+                "before_model_total_tokens": [
+                    731
+                ],
+                "after_model_input_tokens": [
+                    694,
+                    1322
+                ],
+                "after_model_output_tokens": [
+                    37,
+                    477
+                ],
+                "after_model_total_tokens": [
+                    731,
+                    1799
+                ]
+            },
+            "dialogue_id": "1"
+        },
+        {
+            "query": "现在ig在排行榜第几？",
+            "cache_hint": 1,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "现在ig在排行榜第几？",
+                "teams": [
+                    "IG"
+                ],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-05-17 21:10:51",
+                    "2026-05-17 21:10:51"
+                ],
+                "search_nums": null,
+                "coreference": null,
+                "resolved_query": "查询IG在排行榜的排名",
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "IG"
+                        ]
+                    }
+                ]
+            },
+            "match_search": "",
+            "tool_use": [
+                "search_Leaderboard"
+            ],
+            "response": "好的，我来查询LPL第二赛段的排行榜，看看IG的排名情况。目前没有查询到LPL第二赛段的排行榜数据，暂时无法确定IG的具体排名。建议你稍后再查看，或者如果你知道具体是哪个赛事（比如LPL第二赛段的具体组别），我可以再帮你查一下。",
+            "ner_time": 1.3911280632019043,
+            "agent_time": 0.6290972232818604,
+            "tol_time": 2.021054267883301,
+            "token_use": {
+                "before_model_input_tokens": [
+                    1322,
+                    1872
+                ],
+                "before_model_output_tokens": [
+                    477,
+                    45
+                ],
+                "before_model_total_tokens": [
+                    1799,
+                    1917
+                ],
+                "after_model_input_tokens": [
+                    1872,
+                    1928
+                ],
+                "after_model_output_tokens": [
+                    45,
+                    49
+                ],
+                "after_model_total_tokens": [
+                    1917,
+                    1977
+                ]
+            },
+            "dialogue_id": "1"
+        },
+        {
+            "query": "想看看未来有哪些比赛",
+            "cache_hint": 1,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "想看看未来有哪些比赛",
+                "teams": [],
+                "tournaments": [
+                    ""
+                ],
+                "search_time": [
+                    "2026-05-17 21:12:52",
+                    "2026-06-17 21:12:52"
+                ],
+                "search_nums": null,
+                "coreference": null,
+                "resolved_query": "查询未来有哪些比赛",
+                "query_units": []
+            },
+            "match_search": "",
+            "tool_use": [
+                "search_next_match"
+            ],
+            "response": "好的，我来查询未来的赛程安排。{\"LCK联赛\": [{\"match_time\": \"2026-05-17 16:00\", \"team_a\": \"HLE\", \"team_b\": \"KT\"}, {\"match_time\": \"2026-05-17 18:00\", \"team_a\": \"KRX\", \"team_b\": \"BRO\"}, {\"match_time\": \"2026-05-20 16:00\", \"team_a\": \"T1\", \"team_b\": \"KRX\"}, {\"match_time\": \"2026-05-20 18:00\", \"team_a\": \"NS\", \"team_b\": \"KT\"}, {\"match_time\": \"2026-05-21 16:00\", \"team_a\": \"DK\", \"team_b\": \"BRO\"}], \"LPL第二赛段\": [{\"match_time\": \"2026-05-17 17:00\", \"team_a\": \"JDG\", \"team_b\": \"IG\"}, {\"match_time\": \"2026-05-17 19:00\", \"team_a\": \"BLG\", \"team_b\": \"AL\"}], \"LCKCL联赛\": [{\"match_time\": \"2026-05-18 13:00\", \"team_a\": \"DK.C\", \"team_b\": \"T1.EA\"}, {\"match_time\": \"2026-05-18 15:00\", \"team_a\": \"DNS.C\", \"team_b\": \"DRX.C\"}, {\"match_time\": \"2026-05-18 17:00\", \"team_a\": \"GEN.C\", \"team_b\": \"HLE.C\"}, {\"match_time\": \"2026-05-19 16:00\", \"team_a\": \"BFX.Y\", \"team_b\": \"BRO.C\"}, {\"match_time\": \"2026-05-19 18:00\", \"team_a\": \"KT.C\", \"team_b\": \"NS.EA\"}], \"LPLOL春季赛\": [{\"match_time\": \"2026-05-22 02:00\", \"team_a\": \"FCN\", \"team_b\": \"DRM\"}, {\"match_time\": \"2026-05-22 03:00\", \"team_a\": \"Crusaders\", \"team_b\": \"ZeroZone\"}, {\"match_time\": \"2026-05-22 04:00\", \"team_a\": \"BBK\", \"team_b\": \"RT\"}, {\"match_time\": \"2026-05-22 05:00\", \"team_a\": \"GTZ\", \"team_b\": \"The Otter Side\"}, {\"match_time\": \"2026-05-23 02:00\", \"team_a\": \"GTZ\", \"team_b\": \"BBK\"}]}以下是近期各赛区的未来赛程安排：\n\n---\n\n### 🏆 LCK联赛\n| 时间 | 对阵 |\n|------|------|\n| 5月17日 16:00 | **HLE** vs **KT** |\n| 5月17日 18:00 | **KRX** vs **BRO** |\n| 5月20日 16:00 | **T1** vs **KRX** |\n| 5月20日 18:00 | **NS** vs **KT** |\n| 5月21日 16:00 | **DK** vs **BRO** |\n\n### 🏆 LPL第二赛段\n| 时间 | 对阵 |\n|------|------|\n| 5月17日 17:00 | **JDG** vs **IG** |\n| 5月17日 19:00 | **BLG** vs **AL** |\n\n### 🏆 LCKCL联赛（次级联赛）\n| 时间 | 对阵 |\n|------|------|\n| 5月18日 13:00 | **DK.C** vs **T1.EA** |\n| 5月18日 15:00 | **DNS.C** vs **DRX.C** |\n| 5月18日 17:00 | **GEN.C** vs **HLE.C** |\n| 5月19日 16:00 | **BFX.Y** vs **BRO.C** |\n| 5月19日 18:00 | **KT.C** vs **NS.EA** |\n\n### 🏆 LPLOL春季赛\n| 时间 | 对阵 |\n|------|------|\n| 5月22日 02:00 | **FCN** vs **DRM** |\n| 5月22日 03:00 | **Crusaders** vs **ZeroZone** |\n| 5月22日 04:00 | **BBK** vs **RT** |\n| 5月22日 05:00 | **GTZ** vs **The Otter Side** |\n| 5月23日 02:00 | **GTZ** vs **BBK** |\n\n---\n\n你对哪场比赛比较感兴趣？我可以进一步帮你查询相关战队的交手记录或排行榜信息！",
+            "ner_time": 1.4178061485290527,
+            "agent_time": 0.5440053939819336,
+            "tol_time": 1.9623382091522217,
+            "token_use": {
+                "before_model_input_tokens": [
+                    694
+                ],
+                "before_model_output_tokens": [
+                    37
+                ],
+                "before_model_total_tokens": [
+                    731
+                ],
+                "after_model_input_tokens": [
+                    694,
+                    1322
+                ],
+                "after_model_output_tokens": [
+                    37,
+                    479
+                ],
+                "after_model_total_tokens": [
+                    731,
+                    1801
+                ]
+            },
+            "dialogue_id": "1"
+        },
+        {
+            "query": "现在ig在排行榜第几？",
+            "cache_hint": 1,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "现在ig在排行榜第几？",
+                "teams": [
+                    "IG"
+                ],
+                "tournaments": [
+                    "LPL第二赛段"
+                ],
+                "search_time": [
+                    "2026-03-17 21:13:08",
+                    "2026-05-17 21:13:08"
+                ],
+                "search_nums": null,
+                "coreference": null,
+                "resolved_query": "查询IG在LPL第二赛段的排行榜排名",
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "IG"
+                        ]
+                    }
+                ]
+            },
+            "match_search": "",
+            "tool_use": [
+                "search_Leaderboard"
+            ],
+            "response": "好的，我来查询LPL第二赛段的排行榜，看看IG的排名情况。当前LPL第二赛段的常规赛排行榜如下：\n1名：BLG: 11-2\n2名：AL: 8-5\n3名：JDG: 8-5\n4名：TES: 8-6\n5名：NIP: 7-7\n6名：WBG: 6-8\n7名：IG: 5-8\n8名：LNG: 4-1\n9名：EDG: 3-2\n10名：LGD: 3-2\n11名：TT: 3-2\n12名：UP: 2-3\n13名：WE: 1-13\n14名：OMG: 0-5\n\n目前IG在**LPL第二赛段**的排行榜中位列**第7名**，战绩为 **5胜8负**。",
+            "ner_time": 2.0036685466766357,
+            "agent_time": 0.456204891204834,
+            "tol_time": 2.461174488067627,
+            "token_use": {
+                "before_model_input_tokens": [
+                    1322,
+                    1874
+                ],
+                "before_model_output_tokens": [
+                    479,
+                    45
+                ],
+                "before_model_total_tokens": [
+                    1801,
+                    1919
+                ],
+                "after_model_input_tokens": [
+                    1874,
+                    2090
+                ],
+                "after_model_output_tokens": [
+                    45,
+                    29
+                ],
+                "after_model_total_tokens": [
+                    1919,
+                    2119
+                ]
+            },
+            "dialogue_id": "1"
+        },
+        {
+            "query": "ig接下来几天有比赛吗？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "ig接下来几天有比赛吗？",
+                "teams": [
+                    "IG"
+                ],
+                "tournaments": [
+                    "LPL第二赛段"
+                ],
+                "search_time": [
+                    "2026-05-17 21:13:32",
+                    "2026-05-20 21:13:32"
+                ],
+                "search_nums": null,
+                "coreference": null,
+                "resolved_query": "查询IG接下来几天的比赛安排",
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "IG"
+                        ]
+                    }
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "根据刚才查询到的未来赛程，IG在接下来的几天内并没有比赛安排。目前LPL第二赛段近期只有5月17日 **JDG vs IG** 和 **BLG vs AL** 这两场比赛，但IG并不在其中。\n\n如果你想了解IG后续的完整赛程，我可以进一步帮你查询。",
+            "ner_time": 1.2276873588562012,
+            "agent_time": 0.4933030605316162,
+            "tol_time": 1.7226226329803467,
+            "token_use": {
+                "before_model_input_tokens": [
+                    2090
+                ],
+                "before_model_output_tokens": [
+                    29
+                ],
+                "before_model_total_tokens": [
+                    2119
+                ],
+                "after_model_input_tokens": [
+                    2192
+                ],
+                "after_model_output_tokens": [
+                    66
+                ],
+                "after_model_total_tokens": [
+                    2258
+                ]
+            },
+            "dialogue_id": "1"
+        },
+        {
+            "query": "ig最近打的比赛名称是？",
+            "cache_hint": 1,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "ig最近打的比赛名称是？",
+                "teams": [
+                    "IG"
+                ],
+                "tournaments": [
+                    "LPL第二赛段"
+                ],
+                "search_time": [
+                    "2026-03-17 21:13:38",
+                    "2026-05-17 21:13:38"
+                ],
+                "search_nums": null,
+                "coreference": null,
+                "resolved_query": "查询IG最近打的比赛名称",
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "IG"
+                        ]
+                    }
+                ]
+            },
+            "match_search": [
+                {
+                    "team": "IG",
+                    "opponent": "",
+                    "tournament": "LPL第二赛段",
+                    "search_nums": 6,
+                    "search_time": [
+                        "2026-03-17 21:13:38",
+                        "2026-05-17 21:13:38"
+                    ],
+                    "status": "已结束"
+                }
+            ],
+            "tool_use": [
+                "search_matches",
+                "search_matches"
+            ],
+            "response": "好的，我来查询IG近期的比赛记录。在LPL第二赛段中\n1.2026-05-17 17:00 IG None-None JDG （常规赛）\n2.2026-05-12 20:00 IG 1-2 BLG （常规赛）\n3.2026-05-09 17:00 IG 2-0 NIP （常规赛）\n4.2026-05-06 17:00 IG 1-2 WE （常规赛）\n5.2026-05-02 20:00 IG 0-2 AL （常规赛）\n6.2026-05-01 19:30 IG 2-1 WBG （常规赛）\nIG胜2场，败4场\nIG胜率：0.33\n\nIG最近参加的比赛是**LPL第二赛段**的常规赛，具体近期比赛如下：\n\n| 日期 | 对阵 | 比分 |\n|------|------|------|\n| 5月17日 | IG vs **JDG** | 待进行 |\n| 5月12日 | IG vs **BLG** | 1 : 2 |\n| 5月9日 | IG vs **NIP** | 2 : 0 |\n| 5月6日 | IG vs **WE** | 1 : 2 |\n| 5月2日 | IG vs **AL** | 0 : 2 |\n| 5月1日 | IG vs **WBG** | 2 : 1 |\n\n所以IG最近打的比赛就是 **LPL第二赛段常规赛**，近期战绩为2胜4负。",
+            "ner_time": 1.4284017086029053,
+            "agent_time": 0.6505038738250732,
+            "tol_time": 2.0805816650390625,
+            "token_use": {
+                "before_model_input_tokens": [
+                    2192,
+                    2331
+                ],
+                "before_model_output_tokens": [
+                    66,
+                    37
+                ],
+                "before_model_total_tokens": [
+                    2258,
+                    2368
+                ],
+                "after_model_input_tokens": [
+                    2331,
+                    2540
+                ],
+                "after_model_output_tokens": [
+                    37,
+                    178
+                ],
+                "after_model_total_tokens": [
+                    2368,
+                    2718
+                ]
+            },
+            "dialogue_id": "1"
+        },
+        {
+            "query": "去年的时候这个比赛ig在排行榜第几？",
+            "cache_hint": 0,
+            "cache_nohinit": 0,
+            "match_slot": {
+                "query": "去年的时候这个比赛ig在排行榜第几？",
+                "teams": [
+                    "IG"
+                ],
+                "tournaments": [
+                    "LPL第二赛段"
+                ],
+                "search_time": [
+                    "2025-01-01 00:00:00",
+                    "2025-12-31 23:59:59"
+                ],
+                "search_nums": null,
+                "coreference": {
+                    "mention": "这个比赛",
+                    "resolved_to": [
+                        "LPL第二赛段"
+                    ],
+                    "reason": "历史对话中用户多次查询IG在LPL第二赛段的信息，当前问题中的'这个比赛'指代LPL第二赛段"
+                },
+                "resolved_query": "查询IG在去年LPL第二赛段的排行榜排名",
+                "query_units": [
+                    {
+                        "type_model": "single",
+                        "subjects": [
+                            "IG"
+                        ]
+                    }
+                ]
+            },
+            "match_search": "",
+            "tool_use": [],
+            "response": "抱歉，我目前只能查询到当前赛季的排行榜数据，没有去年LPL第二赛段的排行榜历史记录，因此无法查到IG去年在该赛事中的排名情况。",
+            "ner_time": 2.1563079357147217,
+            "agent_time": 0.7227218151092529,
+            "tol_time": 2.8809759616851807,
+            "token_use": {
+                "before_model_input_tokens": [
+                    2540
+                ],
+                "before_model_output_tokens": [
+                    178
+                ],
+                "before_model_total_tokens": [
+                    2718
+                ],
+                "after_model_input_tokens": [
+                    2794
+                ],
+                "after_model_output_tokens": [
+                    35
+                ],
+                "after_model_total_tokens": [
+                    2829
+                ]
+            },
+            "dialogue_id": "1"
+        }
+    ]
+}

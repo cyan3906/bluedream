@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "from": "team_name",
+        "question": "UP最近状态怎么样呢？",
+        "difficulty": "hard",
+        "hard-score": 7
+    },
+    {
+        "id": 2,
+        "from": "tournament_name",
+        "question": "在LPL第三赛段中，哪支队伍遭遇了最长连败？",
+        "difficulty": "hard",
+        "hard-score": 9
+    },
+    {
+        "id": 3,
+        "from": "tournament_name",
+        "question": "在即将开始的LCKCL联赛中，第六场比赛两只队伍谁大概率会赢下比赛？",
+        "difficulty": "hard",
+        "hard-score": 5
+    },
+    {
+        "id": 4,
+        "from": "tournament_name",
+        "question": "在已经结束的LCK联赛中，谁夺得了最后的冠军，谁夺得了最后的亚军？",
+        "difficulty": "hard",
+        "hard-score": 7
+    },
+    {
+        "id": 5,
+        "from": "tournament_name",
+        "question": "在已经结束的S15全球总决赛中，哪知队伍最先出局？",
+        "difficulty": "hard",
+        "hard-score": 8
+    },
+    {
+        "id": 6,
+        "from": "tournament_name",
+        "question": "在已经结束的LPL第二赛段中，是否有队伍一路连胜拿下冠军？",
+        "difficulty": "hard",
+        "hard-score": 9
+    },
+    {
+        "id": 7,
+        "from": "team_name",
+        "question": "TES在最近五场比赛中的胜率和得失分分别是多少？",
+        "difficulty": "hard",
+        "hard-score": 7
+    },
+    {
+        "id": 8,
+        "from": "tournament_name",
+        "question": "在已经结束的S15全球总决赛中，哪些队伍进入了四强？",
+        "difficulty": "hard",
+        "hard-score": 7
+    },
+    {
+        "id": 9,
+        "from": "tournament_name",
+        "question": "哪些队伍在LCK联赛表现的相较于上一个赛季有提升？",
+        "difficulty": "hard",
+        "hard-score": 10
+    },
+    {
+        "id": 10,
+        "from": "team_name",
+        "question": "BLG在红蓝方的胜率差异有多大？",
+        "difficulty": "hard",
+        "hard-score": 8
+    }
+]
